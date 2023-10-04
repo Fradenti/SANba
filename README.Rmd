@@ -16,7 +16,8 @@ knitr::opts_chunk$set(
 # SANba
 
 <!-- badges: start -->
-<!-- badges: end -->
+![R-CMD-check](https://github.com/fradenti/SANba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fradenti/SANba/actions/workflows/R-CMD-check.yaml)
+<<!-- badges: end -->
 
 SANba is a meta-package for the Bayesian analysis of grouped data using shared atoms nested models. It encompasses both `SANple` and `SANvi`. The former package can be used to estimate nested models with MCMC, the second implements variational inference methods.
 
@@ -34,4 +35,4 @@ remotes::install_github("fradent/SANba")
 library(SANba)
 ```
 
-See the ![SANple repo](https://github.com/laura-dangelo/SANple) and the ![SANvi repo](https://github.com/fradenti/SANvi) for more information.
+See the [SANple repo](https://github.com/laura-dangelo/SANple) and the [SANvi repo](https://github.com/fradenti/SANvi) for more information.

@@ -4,7 +4,9 @@
 # SANba
 
 <!-- badges: start -->
-<!-- badges: end -->
+
+![R-CMD-check](https://github.com/fradenti/SANba/actions/workflows/R-CMD-check.yaml/badge.svg)\](<https://github.com/fradenti/SANba/actions/workflows/R-CMD-check.yaml>)
+\<<!-- badges: end -->
 
 SANba is a meta-package for the Bayesian analysis of grouped data using
 shared atoms nested models. It encompasses both `SANple` and `SANvi`.
@@ -27,5 +29,5 @@ library(SANba)
 #> ✔ SANvi  0.0.1     ✔ SANple 0.0.1
 ```
 
-See the ![SANple repo](https://github.com/laura-dangelo/SANple) and the
-![SANvi repo](https://github.com/fradenti/SANvi) for more information.
+See the [SANple repo](https://github.com/laura-dangelo/SANple) and the
+[SANvi repo](https://github.com/fradenti/SANvi) for more information.
