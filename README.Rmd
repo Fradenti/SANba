@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# SANba
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+SANba is a meta-package for the Bayesian analysis of grouped data using shared atoms nested models. It encompasses both `SANple` and `SANvi`. The former package can be used to estimate nested models with MCMC, the second implements variational inference methods.
+
+## Installation
+
+You can install the development version of SANba like so:
+
+```{r,eval=F} 
+remotes::install_github("fradent/SANba")
+```
+
+## Load both `SANple` and `SANvi`
+
+```{r example}
+library(SANba)
+```
+
+See the ![SANple repo](https://github.com/laura-dangelo/SANple) and the ![SANvi repo](https://github.com/fradenti/SANvi) for more information.
