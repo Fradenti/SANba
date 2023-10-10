@@ -1,7 +1,7 @@
 Package: SANba
 Type: Package
-Title: A Meta-Package for Fitting Common and Shared Atoms Nested Models with MCMC and Variational Inference
-Version: 0.0.1
+Title: A Meta-Package for Fitting Shared Atoms Nested Models
+Version: 0.1.0
 Date: 2023-09-09
 Authors@R: c(
     person("Laura", "D'Angelo", ,"laura.dangelo@live.com", 
@@ -14,7 +14,7 @@ Authors@R: c(
 Maintainer: Francesco Denti <francescodenti.personal@gmail.com>
 URL: https://github.com/fradenti/SANba
 BugReports: https://github.com/fradenti/SANba/issues
-Description: An R meta-package calling R packages for estimating Bayesian nested mixture models via MCMC and Variational Bayes methods. Specifically, the package implements the common atoms model (Denti et al., 2023), its finite version (D'Angelo et al., 2023), and a hybrid finite-infinite model. All models use Gaussian mixtures with a normal-inverse-gamma prior distribution on the parameters. Additional functions are provided to help analyzing the results of the fitting procedure.
+Description: A meta-package calling R packages for estimating Bayesian nested mixture models via MCMC and Variational Bayes methods. Specifically, the package implements the common atoms model (Denti et al., 2023), its finite version (D'Angelo et al., 2023), and a hybrid finite-infinite model. All models use Gaussian mixtures with a normal-inverse-gamma prior distribution on the parameters. Additional functions are provided to help analyzing the results of the fitting procedure.
 License: MIT + file LICENSE
 Imports: 
     SANvi,

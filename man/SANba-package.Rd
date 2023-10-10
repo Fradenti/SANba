@@ -4,9 +4,9 @@
 \name{SANba-package}
 \alias{SANba}
 \alias{SANba-package}
-\title{SANba: A Meta-Package for Fitting Common and Shared Atoms Nested Models with MCMC and Variational Inference}
+\title{SANba: A Meta-Package for Fitting Common and Shared Atoms Nested Models}
 \description{
-An R meta-package calling R packages for estimating Bayesian nested mixture models via MCMC and Variational Bayes methods. Specifically, the package implements the common atoms model (Denti et al., 2023), its finite version (D'Angelo et al., 2023), and a hybrid finite-infinite model. All models use Gaussian mixtures with a normal-inverse-gamma prior distribution on the parameters. Additional functions are provided to help analyzing the results of the fitting procedure.
+A meta-package calling R packages for estimating Bayesian nested mixture models via MCMC and Variational Bayes methods. Specifically, the package implements the common atoms model (Denti et al., 2023), its finite version (D'Angelo et al., 2023), and a hybrid finite-infinite model. All models use Gaussian mixtures with a normal-inverse-gamma prior distribution on the parameters. Additional functions are provided to help analyzing the results of the fitting procedure.
 }
 \seealso{
 Useful links:
